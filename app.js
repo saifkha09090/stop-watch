@@ -21,6 +21,10 @@ stopWatch.style.display = "none";
 resetWatch.style.display = "none";
 stopTimer.style.display = "none";
 resetTimer.style.display = "none";
+    
+startWatch.style.width = "95%";
+watchCircle.style.border = "#282c34";
+stopWatchProgress.style.visibility = "hidden";
 
 function showTimer() {
   document.getElementById("timerSection").classList.remove("hidden");
