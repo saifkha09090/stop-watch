@@ -21,7 +21,7 @@ stopWatch.style.display = "none";
 resetWatch.style.display = "none";
 stopTimer.style.display = "none";
 resetTimer.style.display = "none";
-    
+
 startWatch.style.width = "95%";
 watchCircle.style.border = "#282c34";
 stopWatchProgress.style.visibility = "hidden";
@@ -60,7 +60,7 @@ function startStopwatch() {
   startWatch.style.display = "none";
   startWatch.style.width = "45%";
   watchCircle.style.border = "5px solid rgb(58, 63, 75)";
- 
+
   stopWatchProgress.style.visibility = "visible";
 }
 
@@ -81,7 +81,7 @@ function resetStopwatch() {
   startWatch.style.display = "inline-block";
   startWatch.style.width = "95%";
   watchCircle.style.border = "#282c34";
- 
+
   stopWatchProgress.style.visibility = "hidden";
   stopWatchProgress.style.transform = "translateX(-50%) rotate(0deg)";
 }
